@@ -28,7 +28,7 @@ public class SetZeros {
         return matrix;
     }
 
-    public void FindZeros() {
+    public void FindAndFillZeros() {
         int[][] mat = new int[3][3];
         int[] row = new int[3];
         int[] col = new int[3];
